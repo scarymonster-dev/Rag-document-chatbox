@@ -1,0 +1,21 @@
+# Virtual Environment (Local Python packages)
+venv/
+.venv/
+env/
+ENV/
+
+# Python caching systems
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local Vector Database & Data storage
+chroma_db/
+*.pdf
+*.txt
+*.csv
+
+# Streamlit local configuration & state
+.streamlit/
